@@ -1,5 +1,6 @@
-from flask import Flask, jsonify, request
+from flask import Flask, request, jsonify
 from http import HTTPStatus
+
 app = Flask(__name__)
 recipes = [
     {
